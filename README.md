@@ -12,6 +12,7 @@ public/                  <- pasta publicada no Netlify
   massagem-terapeutica/  serviço
   massagem-relaxante/    serviço
   dores-e-lesoes/        hub + hernia-discal, dor-ciatica, tendinite-e-bursite, artrose
+  osteopata-almada/      página local para SEO "osteopata Almada"
   sobre/  perguntas-frequentes/  contactos/  politica-de-privacidade/
   contacto-enviado/      confirmação do formulário (noindex)
   404.html  sitemap.xml  robots.txt  site.webmanifest  favicons
@@ -70,3 +71,17 @@ git add -A && git commit -m "Site novo: estático, SEO e conversão" && git push
 - As perguntas do FAQ existem como HTML e como JSON-LD (`FAQPage`) na home e em `perguntas-frequentes/`. Alterar nos dois sítios.
 - Se alterar `style.css` ou `main.js`, subir o `?v=1` nos links para forçar atualização.
 - Se trocar uma imagem, dar-lhe um nome novo (cache de 30 dias).
+
+## SEO local: Almada (v2)
+
+- Palavra-chave principal: **osteopata em Almada** + **Costa da Caparica** (a Costa da Caparica é freguesia do concelho de Almada).
+- Títulos, descrições, H1 dos serviços, JSON-LD (`areaServed`, `addressLocality`) e rodapé incluem Almada.
+- Página nova `/osteopata-almada/` com FAQ própria (`FAQPage`), ligada no menu, rodapé, home e sitemap.
+- **Confirmar:** tempo de viagem indicado (15 a 20 min desde o centro de Almada pelo IC20) e ligação de autocarro.
+- No Google Business Profile, acrescentar Almada às áreas servidas e usar "Osteopata em Almada" nas publicações.
+
+## Conversão (v2)
+
+- Barra fixa no telemóvel com Marcar consulta, WhatsApp e Ligar. No desktop mantém-se o botão de WhatsApp.
+- Telefone visível no cabeçalho (desktop), barra de confiança por baixo do hero, CTA duplo (online + WhatsApp) e microcopy de redução de risco.
+- Não foram inventadas avaliações nem números: para mostrar estrelas/nota, usar dados reais do Google.

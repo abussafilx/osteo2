@@ -35,6 +35,13 @@
     });
   }
 
+  /* ---------- header com sombra ao rolar + barra de marcação no telemóvel ---------- */
+  var mbar = doc.querySelector(".mbar");
+  var onScroll = function () { root.classList.toggle("is-scrolled", window.scrollY > 24); };
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+  if (mbar) setTimeout(function () { mbar.classList.add("is-visible"); }, reduce ? 0 : 700);
+
   /* ---------- reveal ao entrar no ecrã ---------- */
   var revealEls = [].slice.call(doc.querySelectorAll(".reveal"));
   if ("IntersectionObserver" in window && !reduce) {
