@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /contacto-enviado/
+
+Sitemap: https://osteopatiapro.com/sitemap.xml

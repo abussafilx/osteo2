@@ -1,0 +1,21 @@
+{
+  "name": "Osteopatia Pro",
+  "short_name": "Osteopatia Pro",
+  "lang": "pt-PT",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#333652",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
