@@ -84,4 +84,4 @@ git add -A && git commit -m "Site novo: estático, SEO e conversão" && git push
 
 - Barra fixa no telemóvel com Marcar consulta, WhatsApp e Ligar. No desktop mantém-se o botão de WhatsApp.
 - Telefone visível no cabeçalho (desktop), barra de confiança por baixo do hero, CTA duplo (online + WhatsApp) e microcopy de redução de risco.
-- Não foram inventadas avaliações nem números: para mostrar estrelas/nota, usar dados reais do Google.
+- Nota real do Google (5,0, 62 avaliações) no hero, barra de confiança, secção de avaliações, CTA final e cartão lateral. Atualizar o número quando subir (pesquisar "62 avaliações" no projeto). O link aponta para a ficha "Massoterapia e Osteopatia Caparica".

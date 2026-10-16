@@ -662,3 +662,12 @@ h1, h2, h3, h4 { font-weight: 800; text-wrap: balance; color: var(--ink); }
   .trust__item .icon { width: 36px; height: 36px; }
   .eyebrow { font-size: 12px; }
 }
+
+/* ---------- nota do Google ---------- */
+.rating { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--sp-75); font-size: 14px; line-height: 20px; color: var(--muted); text-decoration: none; }
+.rating strong { color: var(--ink); font-weight: 800; }
+.rating:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.stars { display: inline-flex; gap: 1px; color: var(--gold); }
+.stars svg { width: 18px; height: 18px; fill: currentColor; }
+.stars--lg svg { width: 26px; height: 26px; }
+.aside__card .rating { margin-top: calc(-1 * var(--sp-100)); }
